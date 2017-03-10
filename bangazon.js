@@ -8,8 +8,8 @@ const db = new Database('example.sql', () => console.log('connected'));
 // create tables
 
 
-db.run("CREATE TABLE IF NOT EXISTS customer (customerd INT, customername TEXT, streetaddress NVARCHAR, city TEXT, state, postalcode INT, phonenumber INT)")
-db.run("CREATE TABLE IF NOT EXISTS payment_options (payment_optionsId INT, name TEXT, account_number TEXT)")
-db.run("CREATE TABLE IF NOT EXISTS products (productId INT, productName TEXT, productPrice TEXT)")
-db.run("CREATE TABLE IF NOT EXISTS orders (orderId INT, customerId INT, paymentOptId INT)")
-db.run("CREATE TABLE IF NOT EXISTS order_line_items (order_line_itemsId INT, orderId INT, productId INT)")
+db.run("CREATE TABLE IF NOT EXISTS customers(customerId INTEGER PRIMARY KEY AUTOINCREMENT, firstName TEXT NOT NULL, lastName TEXT NOT NULL, address TEXT NOT NULL, city TEXT NOT NULL, state TEXT NOT NULL, postalcode TEXT NOT NULL, phonenumber BLOB)")
+db.run("CREATE TABLE IF NOT EXISTS payment_options (payment_optionsId INTEGER PRIMARY KEY AUTOINCREMENT, payOptName TEXT NOTE NULL, payOptAccountNum TEXT NOT NULL)")
+db.run("CREATE TABLE IF NOT EXISTS products (productId INTEGER PRIMARY KEY AUTOINCREMENT, productName TEXT NOT NULL, productPrice NUMERIC(6,2) NOT NULL)")
+db.run("CREATE TABLE IF NOT EXISTS orders (orderId INTEGER PRIMARY KEY AUTOINCREMENT, customerid INT, paymentOptId INT)")
+db.run("CREATE TABLE IF NOT EXISTS order_line_items (orderliId INTEGER PRIMARY KEY AUTOINCREMENT, orderId INT NOT NULL, productId INT NOT NULL)")
