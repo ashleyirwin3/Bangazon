@@ -1,0 +1,65 @@
+{
+    "customers": [
+        {
+            "firstname": "Violet",
+            "lastname": "Baudelaire",
+            "address": "123 Unfortunate Way",
+            "city": "Spring Hill",
+            "state": "Tennessee",
+            "postalcode": "37174",
+            "phonenumber": "123-456-7890"
+        },
+        {
+            "firstname": "Jane",
+            "lastname": "Erye",
+            "address": "1900 Heathcliff Ln",
+            "city": "London",
+            "state": "England",
+            "postalcode": "12345",
+            "phonenumber": "123-111-2222"
+        },
+        {
+            "firstname": "Lily",
+            "lastname": "Bart",
+            "address": "0001 Green Hills Place",
+            "city": "New York",
+            "state": "New York",
+            "postalcode": "00000",
+            "phonenumber": "555-555-5555"
+        },
+        {
+            "firstname": "Porphyro",
+            "lastname": "Keats",
+            "address": "123 Desperation Ln",
+            "city": "Austin",
+            "state": "Texas",
+            "postalcode": "47219",
+            "phonenumber": "555-555-6666"
+        },
+        {
+            "firstname": "Stephen",
+            "lastname": "Strange",
+            "address": "123 Cape Cove Ln",
+            "city": "Los Angelos",
+            "state": "California",
+            "postalcode": "34616",
+            "phonenumber": "555-555-7777"
+        },
+        {
+            "firstname": "Spencer",
+            "lastname": "Womble",
+            "address": "123 Chirp Chirp Chirp Way",
+            "city": "Maryville",
+            "state": "Tennessee",
+            "postalcode": "00222",
+            "phonenumber": "555-555-8888"
+        },
+        {
+            "firstname": "Jake",
+            "lastname": "Sully",
+            "address": "123 Pandora Pkwy",
+            "city": "Nashville",
+            "state": "Tennessee",
+            "postalcode": "14744",
+            "phonenumber": "555-555-9999"
+        },
