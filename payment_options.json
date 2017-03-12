@@ -1,30 +1,32 @@
 {
-  "payment_options": {
+  "payment_options": [
+    {
     "payOptName": "DiscoverCard",
-    "payOptAccountNum": "1234567",
+    "payOptAccountNum": "1234567"
   },
-   "payment_options": {
+  {
     "payOptName": "Visa",
     "payOptAccountNum": "4444444"
   },
-   "payment_options": {
+  {
     "payOptName": "Master Card",
     "payOptAccountNum": "7777777"
   },
-   "payment_options": {
+  {
     "payOptName": "Regions Bank",
     "payOptAccountNum": "8888888"
   },
-   "payment_options": {
+  {
     "payOptName": "Capitol One",
     "payOptAccountNum": "9999999"
   },
-   "payment_options": {
+  {
     "payOptName": "Venture Card",
     "payOptAccountNum": "5555555"
   },
-   "payment_options": {
+  {
     "payOptName": "Bank of America",
     "payOptAccountNum": "2222222"
   }
+ ]
 }
