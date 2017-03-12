@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+    "productName": "Book",
+    "productPrice": "10.99"
+  },
+  {
+    "productName": "Blender",
+    "productPrice": "75.00"
+  },
+  {
+    "productName": "Coffee Pot",
+    "productPrice": "27.00"
+  },
+  {
+    "productName": "Wine Glasses",
+    "productPrice": "19.99"
+  },
+  {
+    "productName": "Vase",
+    "productPrice": "57.99"
+  },
+  {
+    "productName": "Chair",
+    "productPrice": "60.00"
+  },
+  {
+    "productName": "Sweater",
+    "productPrice": "25.99"
+  }
+ ]
+}
